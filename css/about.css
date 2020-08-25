@@ -1,6 +1,6 @@
 .profile-container{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   align-items:center;
@@ -16,5 +16,15 @@
 
 .profile-text{
   padding:2rem;
-  width:70%;
+  text-align:center;
+}
+
+@media(min-width:750px){
+  .profile-text{
+    text-align:left;
+  }
+
+  .profile-container{
+    justify-content: flex-start;
+  }
 }
