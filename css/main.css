@@ -1,0 +1,18 @@
+.image-border{
+  height:250px;
+  border:5px solid white;
+  box-shadow: 1px 1px 5px #222;
+  margin:5px;
+  transition: all .2s ease-in-out;
+}
+
+.image-border:hover{
+  transform: scale(1.05);
+}
+
+.lined{
+ color:#3E8292;
+ border-bottom:1px solid #3E8292;
+ border-top:1px solid #3E8292;
+ padding:1rem 1rem 1rem 0;
+}

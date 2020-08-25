@@ -1,9 +1,24 @@
-.colors {
-  baseColor: #F0A202;
-  contrastColor: #ea5455;
-  contrastColor2: #61A0AF;
-  background: #decdc3;
-  neutral:#222;
-  neutral2:white;
-}
 
+/* base color */
+/* As hex codes */
+/* Main Primary color */
+
+.color-primary { color: #F0A202 }	
+.color-primary-lighter { color: #FFBD35 }
+.color-primary-darker { color: #BE8000 }
+
+/* blue Contrast color */
+.color-contrast-blue { color: #61A0AF; }	
+.color-contrast-blue-lighter { color: #92C5D1; }
+.color-contrast-blue-darker { color: #3E8292; }
+
+/* Red contrast color */
+.color-contrast-red { color: #EA5454; }	
+.color-contrast-red-lighter { color: #FF7E7E; }
+.color-contrast-red-darker { color: #D42F2F; }
+
+
+/* neutrals */
+.background-color{ color:#efefef;}
+.neutral-white{ color: white;}
+.neutral-dark {color: #222;}
