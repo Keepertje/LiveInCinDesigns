@@ -1,4 +1,4 @@
-.image-border{
+.image-item{
   height:250px;
   border:5px solid white;
   box-shadow: 1px 1px 5px #222;
@@ -6,8 +6,15 @@
   transition: all .2s ease-in-out;
 }
 
-.image-border:hover{
+.image-item:hover{
   transform: scale(1.05);
+}
+
+.image-gallery{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .lined{
@@ -15,4 +22,5 @@
  border-bottom:1px solid #3E8292;
  border-top:1px solid #3E8292;
  padding:1rem 1rem 1rem 0;
+ text-align:center;
 }
