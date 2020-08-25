@@ -4,7 +4,7 @@
   justify-content:center;
   border-top:1px solid #222;
   border-bottom: 1px solid #222;
-  background:#F5EFED;
+  background:white;
   z-index:1;
 }
 
@@ -36,10 +36,13 @@
 }
 
 .navbar li a:hover {
-  background-color: #ea5455;
-  color:white;
+  color:#ea5455;
 }
 
-.navbar .active {
-  border-bottom:#2d4059;
+.navbar li a:hover span.active{
+  border-bottom:1px solid #ea5455;
+}
+
+span.active {
+  border-bottom:1px solid #2d4059;
 }
