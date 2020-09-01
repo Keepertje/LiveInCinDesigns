@@ -1,7 +1,6 @@
 
+/* menu */
 .navbar{
-  display:flex;
-  justify-content:center;
   border-top:1px solid #222;
   border-bottom: 1px solid #222;
   background:white;
@@ -20,11 +19,17 @@
   margin: 0;
   padding: 0;
   top: 0;
+  display:flex;
+  justify-content:center;
+  height:50px;
 }
 
 .navbar li {
   float: left;
   margin-bottom: 0px;
+  height:fit-content;
+  z-index:1;
+  width:150px;
 }
 
 .navbar li a {
@@ -45,4 +50,37 @@
 
 span.active {
   border-bottom:1px solid #2d4059;
+}
+
+/* Submenu */
+.navbar ul.submenu{
+  display:none;
+  flex-direction: column;
+  height:fit-content;
+  background:white;
+  margin-top:-2px;
+  border-left:1px solid black;
+  border-right:1px solid black;
+  border-bottom:1px solid black;
+}
+
+
+.navbar li:hover > ul {
+ display:flex;
+ position:relative;
+}
+
+.submenu li{
+  text-align:center;
+  border-bottom:1px solid black;
+  width:inherit;
+}
+
+.submenu li:hover{
+  color:#ea5455;
+}
+
+.submenu li:last-of-type {
+  text-align:center;
+  border-bottom:1px solid white
 }

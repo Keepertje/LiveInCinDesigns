@@ -40,28 +40,38 @@
 
 <body>
   <!-- Header -->
-  <div class="header">
-    <h1 class="header-header">Live In Cin&nbsp;<span class="background-color">designs</span> </h1>
+  <div class="header" role="banner">
+    <h1 class="header-header">Live In Cin&nbsp;<span class="neutral-white">designs</span> </h1>
     <div>Sweaters to Live In</div>
   </div>
   <!-- Navbar -->
-  <div class="navbar">
+  <div class="navbar" role="navigation" aria-label="main navigation">
     <ul>
-      <li><a href="./index.html"><span class="active">Stuff I Make</span></a></li>
+      <li><a href="./index.html"><span class="active">Stuff I Make</span></a>
+
+      <li><a href="">Patterns</span></a>
+        <ul class="submenu">
+          <li><a href="./patterns/chippie.html">Chippie</a></li>
+        </ul>
+      </li>
       <li><a href="./about.html">About me</a></li>
     </ul>
   </div>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+  <div class="container" role="main" aria-label="main content">
     <div class="row">
       <div class="column" style="margin-top: 10%">
-        <h4 class="lined">Patterns</h4>
+        <h4 class="lined" id="patterns">Latest patterns</h4>
         <div class="image-gallery">
-          <div class="image-item"> <img class="image" src="images/patterns/tindstinden.jpg" alt="text"></img><p class="pattern-name">***Coming (not so) soon***</p></div>
-          <div class="image-item" onclick="window.open('./patterns/chippie.html','_self');"
-          > <img class="image" src="images/patterns/chippie.jpg" alt="text"></img><p class="pattern-name">Chippie</p></div>
+          <div class="image-item"> <img class="image" src="images/patterns/tindstinden.jpg" alt="text"></img>
+            <p class="pattern-name">***Coming (not so) soon***</p>
+          </div>
+          <div class="image-item" onclick="window.open('./patterns/chippie.html','_self');"> <img class="image"
+              src="images/patterns/chippie.jpg" alt="text"></img>
+            <p class="pattern-name">Chippie</p>
+          </div>
         </div>
       </div>
     </div>
@@ -75,18 +85,20 @@
 
     <div class="row">
       <div class="column" style="margin-top: 10%">
-        <h4 class="lined">Instagram</h4>
+        <h4 class="lined" id="instagram">Instagram</h4>
         <div class="insta-feed"></div>
       </div>
     </div>
 
     <div class="row">
       <div class="column" style="margin-top: 10%; margin-bottom:10%;">
-        <h4 class="lined">Find me online</h4>
-       <div class="icon-gallery">
-         <a href="https://www.instagram.com/liveincin_designs/" target="_blank" ><img class="icon-item" alt="Instragram logo" src="images/icons/Instagram-Logo-2017.png"></img></a>
-         <a href="https://www.ravelry.com/designers/live-in-cin" target="_blank"><img class="icon-item" alt="Ravelry logo" src="images/icons/RavelrySecondaryLogo2020-Color.png"></img></a>
-       </div>
+        <h4 class="lined" id="online">Find me online</h4>
+        <div class="icon-gallery">
+          <a href="https://www.instagram.com/liveincin_designs/" target="_blank"><img class="icon-item"
+              alt="Instragram logo" src="images/icons/Instagram-Logo-2017.png"></img></a>
+          <a href="https://www.ravelry.com/designers/live-in-cin" target="_blank"><img class="icon-item"
+              alt="Ravelry logo" src="images/icons/RavelrySecondaryLogo2020-Color.png"></img></a>
+        </div>
       </div>
     </div>
   </div>
