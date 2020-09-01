@@ -1,10 +1,152 @@
-<!-- 
+<!DOCTYPE html>
+<html lang="en">
 
-  Template voor een pagina van een patroon :)
+<head>
 
-  -- Plaatjes van het patroon
-  -- Info over het patroon
-  -- Knopjes naar koopdingen van het patroon
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Live In Cin Designs</title>
+  <meta name="description" content="">
+  <meta name="author" content="Cindy Berghuizen">
 
-  -- instagram met een tag voor het patroon 
--->
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster" rel="stylesheet" type="text/css">
+  <!-- JS
+  ---------------------------------------------------- -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../js/jquery.instagramFeed.min.js"></script>
+  <script src="../js/main.js"></script>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/about.css">
+  <link rel="stylesheet" href="../css/colors.css">
+  <link rel="stylesheet" href="./patterns.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+  <link rel="icon" type="image/png" href="images/favicon.png"> -->
+
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="header">
+    <h1 class="header-header">Live In Cin&nbsp;<span class="background-color">designs</span> </h1>
+    <div>Sweaters to Live In</div>
+  </div>
+  <!-- Navbar -->
+  <div class="navbar">
+    <ul>
+      <li><a href="../index.html">Stuff I make</span></a></li>
+      <li><a href="../about.html"><span>About me</span></a></li>
+    </ul>
+  </div>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 10%">
+        <h4 class="lined">Chippie</h4>
+        <div class="pattern-info">
+          <img class="image" src="../images/patterns/chippie.jpg" />
+          <div class="text">
+            <div class="level">
+              <p><span class="fancy-font">Level</span>:</br>Easy</p>
+            </div>
+            <div class="description">
+              <p><span class="fancy-font">Description</span>:
+              </br> Chippie is made with Scheepjes Stonewashed XL using a 4mm hook. This adorable mouse is 25 cm tall.
+                Don’t
+                forget to close your fridge after finishing Chippie, otherwise your cheese will be gone in a moment ;).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="pattern-content">
+
+          <div class="items-needed">
+            <span class="fancy-font">Chippie</span></br>
+            <ul>
+              <li>2 balls scheepjes Stone Washed XL Smokey Quartz</li>
+              <li>1 balls scheepjes Stone Washed XL Morganite</li>
+              <li>Crochet hook 4mm</li>
+              <li>Eyes 15 mm</li>
+              <li>Stuffing</li>
+            </ul>
+          </div>
+          <div class="items-needed">
+            <span class="fancy-font">Pants</span></br>
+            <ul>
+              <li>1 ball scheepjes Stone Washed XL Green Agate</li>
+              <li>2 buttons</li>
+              <li>Crochet hook 4.5mm</li>
+            </ul>
+          </div>
+          <div class="items-needed">
+            <span class="fancy-font">Other</span></br>
+            <ul>
+              <li>Stitch markers</li>
+              <li>Scissors</li>
+            </ul>
+          </div>
+          <div class="technieken">
+            <span class="fancy-font">Stitches used</span></br>
+            <ul>
+              <li>Single crochet</li>
+              <li>Slip Stitch</li>
+              <li>Double crochet</li>
+              <li>Half double crochet</li>
+              <li>Crocheting in back loop</li>
+              <li>Increases</li>
+              <li>Decreases</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column" style="margin-top: 10%">
+        <h4 class="lined">Get the pattern</h4>
+        <div class="purchase-buttons"><button onclick="window.open('https://www.ravelry.com/patterns/library/chippie-the-mouse','_blank');" class="button-primary">Ravelry</button></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column" style="margin-top: 10%">
+        <h4 class="lined">Instagram</h4>
+        <div class="insta-feed"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column" style="margin-top: 10%; margin-bottom:10%;">
+        <h4 class="lined">Find me online</h4>
+        <div class="icon-gallery">
+          <a href="https://www.instagram.com/liveincin_designs/" target="_blank"><img class="icon-item"
+              alt="Instragram logo" src="../images/icons/Instagram-Logo-2017.png"></img></a>
+          <a href="https://www.ravelry.com/designers/live-in-cin" target="_blank"><img class="icon-item"
+              alt="Ravelry logo" src="../images/icons/RavelrySecondaryLogo2020-Color.png"></img></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>

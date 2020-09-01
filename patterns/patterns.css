@@ -1,0 +1,40 @@
+.pattern-content div{
+  background:white;
+  border: 4px double #F0A202;
+  margin: 5px;
+  padding:5px;
+  width:40%;
+  flex: 1 0 auto;
+}
+
+.pattern-content{
+  display:flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: flex-start;
+}
+
+.pattern-info{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pattern-info .text{
+  background:white;
+  border: 4px double #F0A202;
+  margin-left: 5px;
+  padding:5px;
+  flex: 1 0 auto;
+  width: 60%;
+
+}
+
+ul{
+  padding-left:5px;
+}
+
+.purchase-buttons{
+  display:flex;
+  justify-content: center;
+}
