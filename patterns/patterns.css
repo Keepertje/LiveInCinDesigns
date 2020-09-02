@@ -3,7 +3,7 @@
   border: 4px double #F0A202;
   margin: 5px;
   padding:5px;
-  width:40%;
+  width:45%;
   flex: 1 0 auto;
 }
 
@@ -23,10 +23,10 @@
 .pattern-info .text{
   background:white;
   border: 4px double #F0A202;
-  margin-left: 5px;
+  margin: 5px;
   padding:5px;
   flex: 1 0 auto;
-  width: 60%;
+  width: 55%;
 
 }
 
@@ -37,4 +37,27 @@ ul{
 .purchase-buttons{
   display:flex;
   justify-content: center;
+}
+
+.short-details{
+  padding: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.short-details p{
+  flex: 1 0 auto;
+  width:50%;
+}
+
+@media(min-width:750px){
+  .short-details p{
+    width: 25%;
+      }
+    }
+
+.description{
+  padding:5px;
 }
