@@ -83,3 +83,9 @@
   font-family:lobster;
   font-size:1.7rem;
 }
+
+.footer {
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
