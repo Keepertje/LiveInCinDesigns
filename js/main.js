@@ -10,7 +10,7 @@ $(window).scroll(function(){
 (function($){
   $(window).on('load', function(){
       $.instagramFeed({
-          'username': 'liveincin_dy',
+          'username': 'liveincin_designs',
           'container': ".insta-feed",
           'display_profile': false,
           'display_biography': false,
