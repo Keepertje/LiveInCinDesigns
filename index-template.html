@@ -24,6 +24,7 @@
   <script src="./js/jquery.instagramFeed.min.js"></script>
   <script src="./js/main.js"></script>
 
+
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="./css/normalize.css">
@@ -31,59 +32,69 @@
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/about.css">
   <link rel="stylesheet" href="./css/colors.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– 
   <link rel="icon" type="image/png" href="images/favicon.png"> -->
-
+  <!-- HEAP -->
+  <script type="text/javascript">
+    window.heap = window.heap || [], heap.load = function (e, t) { window.heap.appid = e, window.heap.config = t = t || {}; var r = document.createElement("script"); r.type = "text/javascript", r.async = !0, r.src = "https://cdn.heapanalytics.com/js/heap-" + e + ".js"; var a = document.getElementsByTagName("script")[0]; a.parentNode.insertBefore(r, a); for (var n = function (e) { return function () { heap.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], o = 0; o < p.length; o++)heap[p[o]] = n(p[o]) };
+    heap.load("1348680999"); 
+  </script>
 </head>
 
 <body>
   <!-- Header -->
-   <div class="header" role="banner">
-    <h1 class="header-header">Live In Cin&nbsp;<span class="neutral-white">designs</span> </h1>
-    <div>Sweaters to Live In</div>
-  </div>
+  ${header}
   <!-- Navbar -->
   <div class="navbar" role="navigation" aria-label="main navigation">
     <ul>
-      <li><a href="./index.html">Stuff I Make</a>
+      <li><a href="./index.html"><span class="active">Stuff I Make</span></a>
 
       <li><a href="">Patterns</span></a>
         <ul class="submenu">
           <li><a href="./patterns/chippie.html">Chippie</a></li>
         </ul>
       </li>
-      <li><a href="./about.html"><span class="active">About me</span></a></li>
+      <li><a href="./about.html">About me</a></li>
     </ul>
   </div>
-
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container" role="main" aria-label="main content">
     <div class="row">
       <div class="column" style="margin-top: 10%">
-        <h4 class="lined">This is me</h4>
-        <div class="profile-container">
-          <img class="profile-pic" src="images/about/me.jpg" alt="Picture of a super hot woman"></img>
-          <div class="profile-text">Ik hou van Noorse truien :).
-
+        <h4 class="lined" id="patterns">Latest patterns</h4>
+        <div class="image-gallery">
+          <div class="image-item"> <img class="image" src="images/patterns/tindstinden.jpg" alt="text"></img>
+            <p class="pattern-name">***Coming (not so) soon***</p>
+          </div>
+          <div class="image-item" onclick="window.open('./patterns/chippie.html','_self');"> <img class="image"
+              src="images/patterns/chippie.jpg" alt="text"></img>
+            <p class="pattern-name">Chippie</p>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- <div class="row">
+      <div class="column" style="margin-top: 10%">
+        <h4 class="lined">Testers needed</h4>
+        <div> No testers needed at the moment.</div>
+      </div>
+    </div> -->
+
     <div class="row">
       <div class="column" style="margin-top: 10%">
-        <h4 class="lined">Instagram</h4>
+        <h4 class="lined" id="instagram">Instagram</h4>
         <div class="insta-feed"></div>
       </div>
     </div>
 
     <div class="row">
       <div class="column" style="margin-top: 10%; margin-bottom:10%;">
-        <h4 class="lined">Find me online</h4>
+        <h4 class="lined" id="online">Find me online</h4>
         <div class="icon-gallery">
           <a href="https://www.instagram.com/liveincin_designs/" target="_blank"><img class="icon-item"
               alt="Instragram logo" src="images/icons/Instagram-Logo-2017.png"></img></a>
@@ -94,9 +105,7 @@
     </div>
   </div>
 
-    <div class="footer" role="footer">
-    <p>&copy; Copyright 2020, Cindy Berghuizen</p> 
-  </div>
+  ${footer}
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

@@ -1,0 +1,12 @@
+{
+  "name": "lckd-compiler",
+  "version": "0.0.1",
+  "description": " Small compiler to replace generic stuff ",
+  "main": "compile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cindy Berghuizen",
+  "license": "MIT"
+ }
