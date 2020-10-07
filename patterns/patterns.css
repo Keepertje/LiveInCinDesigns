@@ -52,10 +52,19 @@ ul{
   width:50%;
 }
 
+.short-details .full-width p{
+  flex: 1 0 auto;
+  width:100%;
+}
+
+
 @media(min-width:750px){
   .short-details p{
     width: 25%;
       }
+    }
+    .short-details .full-width p{
+      width:100%;
     }
 
 .description{
