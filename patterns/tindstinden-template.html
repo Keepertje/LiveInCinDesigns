@@ -24,7 +24,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="../js/jquery.instagramFeed.min.js"></script>
   <script src="../js/main.js"></script>
-
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="../js/slick.js"></script>
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="../css/normalize.css">
@@ -35,9 +36,8 @@
   <link rel="stylesheet" href="../css/about.css">
   <link rel="stylesheet" href="../css/colors.css">
   <link rel="stylesheet" href="./patterns.css">
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– 
-  <link rel="icon" type="image/png" href="images/favicon.png"> -->
+  <link rel="stylesheet" href="../css/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 </head>
 
@@ -63,42 +63,55 @@
   </div>
 
 
-  <!-- Primary Page Layout
+    <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container" role="main" aria-label="main content">
     <div class="row">
       <div class="column" style="margin-top: 10%">
         <h4 class="lined">Tindstinden</h4>
-        <div class="pattern-info">
-          <img class="image" src="../images/patterns/tindstinden.jpg" />
+      
+          <div class="carousel">
+          <div class="slide"><img class="image no-animation" src="../images/patterns/tindstinden.jpg" /></div>
+          <div class="slide"><img class="image no-animation" src="../images/patterns/tindstinden.jpg" /></div>
+          <div class="slide"><img class="image no-animation" src="../images/patterns/tindstinden.jpg" /></div>
+          <div class="slide"><img class="image no-animation" src="../images/patterns/tindstinden.jpg" /></div>
+          <div class="slide"><img class="image no-animation" src="../images/patterns/tindstinden.jpg" /></div>
+          </div>
+          <div class="pattern-info">
           <div class="text">
             <div class="short-details">
-              <p><span class="fancy-font">Gauge</span>:</br>18x24 st per 10x10cm</p>
-              <p><span class="fancy-font">Needle</span>:</br>3.5mm & 4.5mm (EU)</p>
-              <p><span class="fancy-font">Yarn</span>:</br>Aran weight</p>
               <div class="full-width">
-              <p><span class="fancy-font">Sizes finished garment</span>:</br>
-                Sizes A (B, C, D) E (F, G, H) J ( K):  </br>
-                88.9 ( 93.3 ,97.8 ,102.2 ) 106.7 (111.1 ,115.6 ,120 ) 124.4, ( 128.9 ) cm </br>
-                35 ( 36.7 ,38.5 ,40.2 ) 42 (43.7 , 45.5 , 47.2 ), 49 , ( 50.7 ) inch </br>
-                Designed to be worn with 2-4 inch or 5-10 cm of positive ease.
+                <p><span class="fancy-font">Sizes finished garment</span>:</br>
+                  Sizes A (B, C, D) E (F, G, H) J ( K): </br>
+                  88.9 ( 93.3 ,97.8 ,102.2 ) 106.7 (111.1 ,115.6 ,120 ) 124.4, ( 128.9 ) cm </br>
+                  35 ( 36.7 ,38.5 ,40.2 ) 42 (43.7 , 45.5 , 47.2 ), 49 , ( 50.7 ) inch </br>
+                  Designed to be worn with 2-4 inch or 5-10 cm of positive ease.
                 </p>
               </div>
             </div>
             <div class="description">
               <p><span class="fancy-font">Description</span>:
                 Todo
-              </br> 
-            </p>
+                </br>
+              </p>
             </div>
           </div>
         </div>
         <div class="pattern-content">
-
+          <div class="short-details">
+            <p><span class="fancy-font">Gauge</span>:</br>18x24 st per 10x10cm</p>
+            <p><span class="fancy-font">Needle</span>:</br>3.5mm & 4.5mm (EU)</p>
+            <p><span class="fancy-font">Yarn</span>:</br>Aran weight</p>
+          </div>
           <div class="items-needed">
-            <span class="fancy-font">Tindstinden</span></br>
+            <span class="fancy-font">Yarn used</span></br>
+            Shown in Ístex Léttlopi:
             <ul>
-              <li>Todo</li>
+              <li>Air Blue (1700):A (B ,C ,D ) E (F ,G ,H ) J, ( K )
+              <li>White (0051):A (2 ,C ,D ) E (F ,G ,H ) J, ( K )</li>
+              <li>Apricot (1704):A (1 ,C ,D ) E (F ,G ,H ) J, ( K )</li>
+              <li>Lapis Blue(1403)A (1 ,C ,D ) E (F ,G ,H ) J, ( K )</li>
+
             </ul>
           </div>
           <div class="items-needed">
@@ -132,7 +145,8 @@
 
     <div class="row">
       <div class="column" style="margin-top: 10%">
-        ${instagram}
+        <h4 class="lined">Instagram</h4>
+<div class="insta-feed"></div>
       </div>
     </div>
 

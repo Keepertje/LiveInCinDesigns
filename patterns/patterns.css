@@ -13,6 +13,9 @@
   flex-flow: wrap;
   justify-content: flex-start;
 }
+.pattern-content .short-details{
+    width:90%;
+  }
 
 .pattern-info{
   display:flex;
@@ -70,3 +73,8 @@ ul{
 .description{
   padding:5px;
 }
+
+
+/* .slide{
+  padding:10px;
+} */

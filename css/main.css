@@ -36,6 +36,11 @@
   margin:5px;
   transition: all .2s ease-in-out;
 }
+
+.image.no-animation{
+  transition: none;
+}
+
 .insta-feed img{
   box-shadow: 1px 1px 5px #222;
   transition: all .2s ease-in-out;
@@ -45,6 +50,9 @@
   transform: scale(1.05);
 }
 
+.image.no-animation:hover, img.no-animation:hover{
+  transform: none;
+}
 .image-gallery{
   display:flex;
   justify-content: center;
