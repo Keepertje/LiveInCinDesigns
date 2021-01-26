@@ -37,6 +37,18 @@
   transition: all .2s ease-in-out;
 }
 
+@media(max-width:425px){
+  .image{
+    height:130px;
+    width:100px;
+
+  }
+ 
+  .image-item button{
+    padding:0;
+  }
+}
+
 .image.no-animation{
   transition: none;
 }
