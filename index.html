@@ -6,8 +6,8 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Live In Cin Designs</title>
-  <meta name="description" content="">
+  <title>Live In Cin Designs | Knitwear to Live In</title>
+  <meta name="description" content="Colorful, cozy knitwear and crochet patterns designed by Cindy Berghuizen.">
   <meta name="author" content="Cindy Berghuizen">
 
   <!-- Mobile Specific Metas
@@ -16,26 +16,24 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,300,600" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Lobster" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <!-- JS
   ---------------------------------------------------- -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="./js/jquery.instagramFeed.min.js"></script>
   <script src="./js/main.js"></script>
-
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/skeleton.css">
-  <link rel="stylesheet" href="./css/navbar.css">
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/colors.css">
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– 
-  <link rel="icon" type="image/png" href="images/favicon.png"> -->
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/main.css">
+
   <!-- HEAP -->
   <script type="text/javascript">
     window.heap = window.heap || [], heap.load = function (e, t) { window.heap.appid = e, window.heap.config = t = t || {}; var r = document.createElement("script"); r.type = "text/javascript", r.async = !0, r.src = "https://cdn.heapanalytics.com/js/heap-" + e + ".js"; var a = document.getElementsByTagName("script")[0]; a.parentNode.insertBefore(r, a); for (var n = function (e) { return function () { heap.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], o = 0; o < p.length; o++)heap[p[o]] = n(p[o]) };
@@ -45,86 +43,152 @@
 
 <body>
   <!-- Header -->
-   <div class="header" role="banner">
-    <h1 class="header-header">Live In Cin&nbsp;<span class="neutral-white">designs</span> </h1>
-    <div>Knitwear to Live In</div>
-  </div>
-  <!-- Navbar -->
-  <div class="navbar" role="navigation" aria-label="main navigation">
-    <ul>
-      <li><a href="./index.html"><span class="active">Patterns</span></a>
-      <li><a href="./about.html">About me</a></li>
-    </ul>
-  </div>
-
-  <div class="row">
-    <div class="column" style="margin-top: 5%">
-      <div class="buttons"> <button onclick="window.open('https://www.ravelry.com/patterns/sources/live-in-cins-ravelry-store','_blank');"> Live in Cin Ravelry store</button></div>
+  <header class="header" role="banner">
+    <div class="header-content">
+      <h1 class="header-header">
+        <a href="./index.html" class="brand-link">Live In Cin&nbsp;<span class="neutral-white">designs</span></a>
+      </h1>
+      <p class="header-tagline">Knitwear to Live In</p>
     </div>
-  </div> 
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-inner">
+      <ul>
+        <li><a href="./index.html"><span class="active">Patterns</span></a></li>
+        <li><a href="./about.html"><span>About me</span></a></li>
+      </ul>
+      <a class="nav-store-btn" href="https://www.ravelry.com/patterns/sources/live-in-cins-ravelry-store" target="_blank" rel="noopener">
+        Ravelry Store ↗
+      </a>
+    </div>
+  </nav>
+
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container" role="main" aria-label="main content">
-    <div class="row">
-      <div class="column" style="margin-top: 5%">
-        <h4 class="lined" id="patterns">Patterns</h4>
-        <div class="image-gallery">
-          <div class="image-item"> <img class="image" 
-            src="images/patterns/happy-hat.jpg" alt="Image of Happy hat pattern" ></img>
-            <button class="buy-button" onclick="window.open('https://www.ravelry.com/patterns/library/happy-hat-21','_blank');"> Happy hat</button>
-          </div>
-          <div class="image-item"> <img class="image" 
-            src="images/patterns/doornse-hat.jpg" alt="Image of Doornse hat pattern" ></img>
-            <button class="buy-button" onclick="window.open('https://www.ravelry.com/patterns/library/doornse-hat','_blank');"> Doornse hat</button>
-          </div>
-          <div class="image-item"> <img class="image" 
-            src="images/patterns/tindstinden.jpg" alt="Image of Tindstinden sweater pattern" ></img>
-            <button class="buy-button" onclick="window.open('https://www.ravelry.com/patterns/library/tindstinden','_blank');">Tindstinden</button>
-          </div>
-          <div class="image-item"> <img class="image" 
-            src="images/patterns/9-to-5-mitts.jpg" alt="Image of 9 to 5 mittens"></img>
-            <button class="buy-button" onclick="window.open('https://www.ravelry.com/patterns/library/9-to-5-mitts','_blank');" >9 to 5 mitts</button>
-          </div>
-          <div class="image-item"> <img class="image"
-              src="images/patterns/chippie.jpg" alt="Image of Chippe a corchet mouse."></img>
-            <button class="buy-button" onclick="window.open('https://www.ravelry.com/patterns/library/chippie-the-mouse','_blank');" >Chippie</button>
-          </div>
+  <main class="container" role="main" aria-label="main content">
+
+    <!-- Patterns Section -->
+    <section class="page-section">
+      <div class="section-header">
+        <h2 class="lined" id="patterns">Patterns</h2>
+        <div class="filter-bar" role="tablist" aria-label="Filter patterns by category">
+          <button class="filter-pill active" data-filter="all" type="button">All</button>
+          <button class="filter-pill" data-filter="hats" type="button">Hats</button>
+          <button class="filter-pill" data-filter="sweaters" type="button">Sweaters</button>
+          <button class="filter-pill" data-filter="mitts" type="button">Mitts</button>
+          <button class="filter-pill" data-filter="crochet" type="button">Crochet</button>
         </div>
       </div>
-    </div>
 
-    <!-- <div class="row">
-      <div class="column" style="margin-top: 10%">
-        <h4 class="lined">Testers needed</h4>
-        <div> No testers needed at the moment.</div>
+      <div class="image-gallery">
+        <article class="image-item" data-category="hats">
+          <div class="image-wrapper" onclick="window.open('https://www.ravelry.com/patterns/library/happy-hat-21','_blank');">
+            <span class="pattern-badge badge-amber">Hat</span>
+            <img class="image" src="images/patterns/happy-hat.jpg" alt="Image of Happy hat pattern">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Happy Hat</h3>
+            <p class="card-desc">Stranded colorwork beanie topped with a sunny pom-pom.</p>
+            <button class="buy-button" type="button" onclick="window.open('https://www.ravelry.com/patterns/library/happy-hat-21','_blank');">
+              View on Ravelry
+            </button>
+          </div>
+        </article>
+
+        <article class="image-item" data-category="hats">
+          <div class="image-wrapper" onclick="window.open('https://www.ravelry.com/patterns/library/doornse-hat','_blank');">
+            <span class="pattern-badge badge-teal">Hat</span>
+            <img class="image" src="images/patterns/doornse-hat.jpg" alt="Image of Doornse hat pattern">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Doornse Hat</h3>
+            <p class="card-desc">Textured beanie featuring cables, bobbles, and seed stitch.</p>
+            <button class="buy-button" type="button" onclick="window.open('https://www.ravelry.com/patterns/library/doornse-hat','_blank');">
+              View on Ravelry
+            </button>
+          </div>
+        </article>
+
+        <article class="image-item" data-category="sweaters">
+          <div class="image-wrapper" onclick="window.open('https://www.ravelry.com/patterns/library/tindstinden','_blank');">
+            <span class="pattern-badge badge-coral">Sweater</span>
+            <img class="image" src="images/patterns/tindstinden.jpg" alt="Image of Tindstinden sweater pattern">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Tindstinden</h3>
+            <p class="card-desc">Nordic-inspired circular yoke sweater with geometric colorwork.</p>
+            <button class="buy-button" type="button" onclick="window.open('https://www.ravelry.com/patterns/library/tindstinden','_blank');">
+              View on Ravelry
+            </button>
+          </div>
+        </article>
+
+        <article class="image-item" data-category="mitts">
+          <div class="image-wrapper" onclick="window.open('https://www.ravelry.com/patterns/library/9-to-5-mitts','_blank');">
+            <span class="pattern-badge badge-amber">Mitts</span>
+            <img class="image" src="images/patterns/9-to-5-mitts.jpg" alt="Image of 9 to 5 mittens">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">9 to 5 Mitts</h3>
+            <p class="card-desc">Cozy textured fingerless mitts to keep your hands warm.</p>
+            <button class="buy-button" type="button" onclick="window.open('https://www.ravelry.com/patterns/library/9-to-5-mitts','_blank');">
+              View on Ravelry
+            </button>
+          </div>
+        </article>
+
+        <article class="image-item" data-category="crochet">
+          <div class="image-wrapper" onclick="window.open('https://www.ravelry.com/patterns/library/chippie-the-mouse','_blank');">
+            <span class="pattern-badge badge-teal">Crochet</span>
+            <img class="image" src="images/patterns/chippie.jpg" alt="Image of Chippie a crochet mouse">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Chippie</h3>
+            <p class="card-desc">Crocheted mouse friend dressed in buttoned overalls.</p>
+            <button class="buy-button" type="button" onclick="window.open('https://www.ravelry.com/patterns/library/chippie-the-mouse','_blank');">
+              View on Ravelry
+            </button>
+          </div>
+        </article>
       </div>
-    </div> -->
 
-    <div class="row">
-      <div class="column" style="margin-top: 10%">
-        <h4 class="lined">Instagram</h4>
-<div class="insta-feed"></div>
+      <div class="buttons" style="margin-top: 3.6rem;">
+        <button class="store-cta-button" type="button" onclick="window.open('https://www.ravelry.com/patterns/sources/live-in-cins-ravelry-store','_blank');">
+          Live in Cin Ravelry Store ↗
+        </button>
       </div>
-    </div>
+    </section>
 
-    <div class="row">
-      <div class="column" style="margin-top: 10%; margin-bottom:10%;">
-        <h4 class="lined">Find me online</h4>
-        <div class="icon-gallery">
-          <a href="https://www.instagram.com/liveincin_designs/" target="_blank"><img class="icon-item"
-              alt="Instagram logo" src="images/icons/Instagram-Logo-2017.png"></img></a>
-          <a href="https://www.ravelry.com/designers/live-in-cin" target="_blank"><img class="icon-item"
-              alt="Ravelry logo" src="images/icons/RavelrySecondaryLogo2020-Color.png"></img></a>
-        </div>
+    <section class="page-section page-section-last">
+      <div class="section-header">
+        <h2 class="lined">Find me online</h2>
       </div>
-    </div>
-  </div>
+      <div class="icon-gallery">
+        <a href="https://www.instagram.com/liveincin_designs/" target="_blank" rel="noopener" class="social-card social-insta">
+          <img class="icon-item" alt="Instagram logo" src="images/icons/Instagram-Logo-2017.png">
+          <div class="social-card-text">
+            <strong>Instagram</strong>
+            <span>@liveincin_designs</span>
+          </div>
+        </a>
+        <a href="https://www.ravelry.com/designers/live-in-cin" target="_blank" rel="noopener" class="social-card social-ravelry">
+          <img class="icon-item" alt="Ravelry logo" src="images/icons/RavelrySecondaryLogo2020-Color.png">
+          <div class="social-card-text">
+            <strong>Ravelry</strong>
+            <span>Live in Cin Designs</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
 
-    <div class="footer" role="footer">
-    <p>&copy; Copyright 2021, Cindy Berghuizen</p> 
-  </div>
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; Cindy Berghuizen &middot; Live In Cin Designs</p>
+    </div>
+  </footer>
 </body>
 
 </html>

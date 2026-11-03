@@ -1,24 +1,51 @@
+:root {
+  /* Primary Amber / Golden Yarn */
+  --color-primary: #F0A202;
+  --color-primary-lighter: #FFBD35;
+  --color-primary-darker: #C88400;
+  --color-primary-soft: #FFF4DC;
 
-/* base color */
-/* As hex codes */
-/* Main Primary color */
+  /* Contrast Teal / Nordic Ocean */
+  --color-teal: #3E8292;
+  --color-teal-light: #61A0AF;
+  --color-teal-lighter: #92C5D1;
+  --color-teal-soft: #EBF5F7;
+  --color-teal-deep: #1E4652;
 
-.color-primary { color: #F0A202 }	
-.color-primary-lighter { color: #FFBD35 }
-.color-primary-darker { color: #BE8000 }
+  /* Contrast Coral / Terracotta Stitch */
+  --color-coral: #EA5454;
+  --color-coral-light: #FF7E7E;
+  --color-coral-darker: #D42F2F;
+  --color-coral-soft: #FFEBEB;
 
-/* blue Contrast color */
-.color-contrast-blue { color: #61A0AF; }	
+  /* Warm Neutrals */
+  --bg-warm: #FAF6F0;
+  --bg-card: #FFFFFF;
+  --text-dark: #222831;
+  --text-muted: #5C6470;
+  --border-warm: #EAE2D6;
+
+  /* Shadows & Radii */
+  --shadow-sm: 0 4px 14px rgba(34, 40, 49, 0.06);
+  --shadow-md: 0 12px 28px rgba(34, 40, 49, 0.10);
+  --shadow-lg: 0 18px 40px rgba(34, 40, 49, 0.14);
+  --radius-md: 14px;
+  --radius-lg: 20px;
+}
+
+/* Legacy utility classes */
+.color-primary { color: #F0A202; }
+.color-primary-lighter { color: #FFBD35; }
+.color-primary-darker { color: #BE8000; }
+
+.color-contrast-blue { color: #61A0AF; }
 .color-contrast-blue-lighter { color: #92C5D1; }
 .color-contrast-blue-darker { color: #3E8292; }
 
-/* Red contrast color */
-.color-contrast-red { color: #EA5454; }	
+.color-contrast-red { color: #EA5454; }
 .color-contrast-red-lighter { color: #FF7E7E; }
 .color-contrast-red-darker { color: #D42F2F; }
 
-
-/* neutrals */
-.background-color{ color:#efefef;}
-.neutral-white{ color: white;}
-.neutral-dark {color: #222;}
+.background-color { color: #FAF6F0; }
+.neutral-white { color: #FFFFFF; }
+.neutral-dark { color: #222831; }

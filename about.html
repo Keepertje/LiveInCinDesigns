@@ -6,8 +6,8 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Live In Cin Designs</title>
-  <meta name="description" content="">
+  <title>About Me | Live In Cin Designs</title>
+  <meta name="description" content="About Cindy Berghuizen, knitwear and crochet pattern designer behind Live In Cin Designs.">
   <meta name="author" content="Cindy Berghuizen">
 
   <!-- Mobile Specific Metas
@@ -16,84 +16,102 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,300,600" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Lobster" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <!-- JS
   ---------------------------------------------------- -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="./js/jquery.instagramFeed.min.js"></script>
   <script src="./js/main.js"></script>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/skeleton.css">
-  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/colors.css">
   <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/about.css">
-  <link rel="stylesheet" href="./css/colors.css">
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– 
-  <link rel="icon" type="image/png" href="images/favicon.png"> -->
 
 </head>
 
 <body>
   <!-- Header -->
-   <div class="header" role="banner">
-    <h1 class="header-header">Live In Cin&nbsp;<span class="neutral-white">designs</span> </h1>
-    <div>Knitwear to Live In</div>
-  </div>
-  <!-- Navbar -->
-  <div class="navbar" role="navigation" aria-label="main navigation">
-    <ul>
-      <li><a href="./index.html">Patterns</a>
-      <li><a href="./about.html"><span class="active">About me</span></a></li>
-    </ul>
-  </div>
+  <header class="header" role="banner">
+    <div class="header-content">
+      <h1 class="header-header">
+        <a href="./index.html" class="brand-link">Live In Cin&nbsp;<span class="neutral-white">designs</span></a>
+      </h1>
+      <p class="header-tagline">Knitwear to Live In</p>
+    </div>
+  </header>
 
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-inner">
+      <ul>
+        <li><a href="./index.html"><span>Patterns</span></a></li>
+        <li><a href="./about.html"><span class="active">About me</span></a></li>
+      </ul>
+      <a class="nav-store-btn" href="https://www.ravelry.com/patterns/sources/live-in-cins-ravelry-store" target="_blank" rel="noopener">
+        Ravelry Store ↗
+      </a>
+    </div>
+  </nav>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container" role="main" aria-label="main content">
-    <div class="row">
-      <div class="column" style="margin-top: 10%">
-        <h4 class="lined">This is me</h4>
-        <div class="profile-container">
-          <img class="profile-pic" src="images/about/me.jpg" alt="Picture of a super hot woman"></img>
-          <div class="profile-text">I like to knit sweaters :).
+  <main class="container" role="main" aria-label="main content">
+    <section class="page-section">
+      <div class="section-header">
+        <h2 class="lined">This is me</h2>
+      </div>
 
+      <div class="profile-container">
+        <img class="profile-pic" src="images/about/me.jpg" alt="Cindy wearing a colorful hand-knitted yoke sweater">
+        <div class="profile-text">
+          <p class="profile-lead">I like to knit sweaters :).</p>
+          <p class="profile-bio">
+            Welcome to <strong>Live In Cin Designs</strong>! I’m Cindy, and I design colorful, cozy knitwear and crochet patterns made for everyday wear—from stranded colorwork yokes and textured hats to playful amigurumi.
+          </p>
+          <div class="profile-actions">
+            <a class="button-link-primary" href="./index.html">View Patterns</a>
+            <a class="button-link-secondary" href="https://www.ravelry.com/designers/live-in-cin" target="_blank" rel="noopener">Ravelry Profile ↗</a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="row">
-      <div class="column" style="margin-top: 10%">
-        <h4 class="lined">Instagram</h4>
-<div class="insta-feed"></div>
+    <section class="page-section page-section-last">
+      <div class="section-header">
+        <h2 class="lined">Find me online</h2>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="column" style="margin-top: 10%; margin-bottom:10%;">
-        <h4 class="lined">Find me online</h4>
-        <div class="icon-gallery">
-          <a href="https://www.instagram.com/liveincin_designs/" target="_blank"><img class="icon-item"
-              alt="Instagram logo" src="images/icons/Instagram-Logo-2017.png"></img></a>
-          <a href="https://www.ravelry.com/designers/live-in-cin" target="_blank"><img class="icon-item"
-              alt="Ravelry logo" src="images/icons/RavelrySecondaryLogo2020-Color.png"></img></a>
-        </div>
+      <div class="icon-gallery">
+        <a href="https://www.instagram.com/liveincin_designs/" target="_blank" rel="noopener" class="social-card social-insta">
+          <img class="icon-item" alt="Instagram logo" src="images/icons/Instagram-Logo-2017.png">
+          <div class="social-card-text">
+            <strong>Instagram</strong>
+            <span>@liveincin_designs</span>
+          </div>
+        </a>
+        <a href="https://www.ravelry.com/designers/live-in-cin" target="_blank" rel="noopener" class="social-card social-ravelry">
+          <img class="icon-item" alt="Ravelry logo" src="images/icons/RavelrySecondaryLogo2020-Color.png">
+          <div class="social-card-text">
+            <strong>Ravelry</strong>
+            <span>Live in Cin Designs</span>
+          </div>
+        </a>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
 
-    <div class="footer" role="footer">
-    <p>&copy; Copyright 2021, Cindy Berghuizen</p> 
-  </div>
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; Cindy Berghuizen &middot; Live In Cin Designs</p>
+    </div>
+  </footer>
 </body>
 
 </html>
